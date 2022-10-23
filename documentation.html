@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    
+    <title>Approach of building visualizations</title>
+
+</head>
+<style>
+.left {
+    text-align: left;
+    
+  }
+
+  .center {
+    text-align: center;
+    
+  }
+  </style>
+<body>
+    
+
+    <button onclick="myFunction()">Back to Visualization</button>
+
+    <script>
+    function myFunction() {
+      location.replace("index.html")
+    }
+        </script>
+
+
+    <h4>Documentation on my project </h4>
+    <div class="left">
+<img src="about.PNG" alt="Trulli" width="500" height="333">
+</div>
+    <p>
+        <h4>My Design Process</h4>
+<ul>
+        <li>Firstly I have gone through the data files, understood the attributes of the data provided, figured out how to read the data and just do a console print. 
+        I made a initial draft on paper on where and how to place svgs, what should be my order, which to plot first so that in what way it would be easy for
+        me to proceed with other plots.
+        Then I started drawing the map by reading streets.json file. </li>
+
+        <li>Then I have plotted pumps on the map. Once I had them in place, I did a scatter plot on the map initially with gender to deaths.</li>
+        <li>I've differentiated each death with gender individually by adding color to represent male and female. </li>
+
+        <li>I have added zoom and pan condition on my map to zoom in and zoom out and to move the map around inside the svg defined for map. </li>
+        <li>After that, I have plotted timeline graph for deaths to date and made a bar graph to show distribution of deaths over gender and age. </li>
+       <li> Then I plotted the deaths on the map w.r.t to age on the maps and used colors to differentiate the age groups on the map.</li>
+       <li> Finally I had the interaction taking place between map and timeline graph. </li> 
+       <li>As there was only around a month to complete this project, I had to make sure that I have enough time to think over on how to plot my visualizations. </li>
+   
+
+   
+      <li>I have added about, documentation, video buttons on my main visualization page that would redirect them respectively. </li>
+    
+     <li>   And in every above page, I have also added a button Back to visualization that would redirect to the main page. </li>
+    
+      <li> For interaction, when hovered on the particular day in timeline graph, deaths of until that day will be reflected on the map. </li>
+      <li> Else, once the mouse moves out of the hover, then all the deaths as usual will be shown in the map </li>
+    </p>
+</ul>
+    <h4> Why did I arrange my graphs this way?</h4>
+    <p>
+        The reason I chose to arrange my graphs this way was to have a specific order to myself. I felt that there were lot of modules
+        that needs to be acheived in given span of 1 month. In order for me to maintain clarity on what ui am doing i this process and
+        what I want show through this visualization, 
+        I have drafted everything on the paper in a way what felt correct to me.
+    </p>
+
+    <div class="left">
+    <p>
+<h4> Few of the observations I have made from this project</h4>
+<p>
+In the distribution graph for age-sex, I observed from ages 0-10 have more female deaths than male. age>80 has the most male deaths.
+Age group 11-20 has lowest deaths. <br>
+<img src="p2.PNG" alt="Trulli" width="500" height="333" >
+<br>
+</p>
+</div>
+<br>
+
+
+<div class="left">
+<p>
+More deaths were recorded near and around the pump of Broad street. For instance, 143 deaths on sep-1. Most of the deaths surrounded that pump.<br>
+<img src="p1.PNG" alt="Trulli" width="900" height="400" >
+</p>
+</div>
+<br>
+<div class="left">
+    <p STYLE="text-align:right">
+        <h4> References and Citations</h4>
+        https://d3-graph-gallery.com/graph/barplot_grouped_basicWide.html
+        <br>
+        https://d3-graph-gallery.com/graph/connectedscatter_select.html
+        <br>
+        https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad
+
+        <br>
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_redirect_webpage
+        <br>
+        https://d3-graph-gallery.com/graph/scatter_basic.html
+        <br>
+        https://d3-graph-gallery.com/graph/interactivity_zoom.html
+        <br>
+        https://www.tomordonez.com/d3-bar-chart-title-and-labels/
+        <br>
+        https://d3-graph-gallery.com/graph/custom_legend.html#cat2
+        <br>
+        https://colorbrewer2.org/#type=sequential&scheme=BuPu&n=3
+        <br>
+        https://jonathansoma.com/lede/storytelling/d3/text-elements/
+        <br>
+        https://d3-graph-gallery.com/graph/connectedscatter_tooltip.html
+        <br>
+        https://d3-graph-gallery.com/graph/custom_legend.html
+        <br>
+        http://www.d3noob.org/2012/12/adding-axis-labels-to-d3js-graph.html
+    </p>
+     </div> 
+</body>
