@@ -263,27 +263,27 @@ svg.append("text").attr("x", 20).attr("y", 13).text("West Street (WS)").style("f
 
 
 //adding age legend 0-10 to the map
-svg.append("circle").attr("cx",135).attr("cy", 10).attr("r", 6).style("fill", "#66c2a5")
+svg.append("circle").attr("cx",135).attr("cy", 10).attr("r", 2).style("fill", "#66c2a5")
 svg.append("text").attr("x", 142).attr("y", 11).text("0-10").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#66c2a5") 
 
 //age legend for 11-20
-svg.append("circle").attr("cx",178).attr("cy", 10).attr("r", 6).style("fill", "#fc8d62")
+svg.append("circle").attr("cx",178).attr("cy", 10).attr("r", 2).style("fill", "#fc8d62")
 svg.append("text").attr("x", 182).attr("y", 11).text("11-20").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#fc8d62") 
 
 //age legend for 21-40
-svg.append("circle").attr("cx",225).attr("cy", 10).attr("r", 6).style("fill", "#8da0cb")
+svg.append("circle").attr("cx",225).attr("cy", 10).attr("r", 2).style("fill", "#8da0cb")
 svg.append("text").attr("x", 230).attr("y", 11).text("21-40").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#8da0cb") 
 
 //age legend for 41-60
-svg.append("circle").attr("cx",272).attr("cy", 10).attr("r", 6).style("fill", "pink")
+svg.append("circle").attr("cx",272).attr("cy", 10).attr("r", 2).style("fill", "pink")
 svg.append("text").attr("x", 278).attr("y", 11).text("41-60").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "pink") 
 
 //age legend for 61-80
-svg.append("circle").attr("cx",320).attr("cy", 10).attr("r", 6).style("fill", "#b2df8a")
+svg.append("circle").attr("cx",320).attr("cy", 10).attr("r", 2).style("fill", "#b2df8a")
 svg.append("text").attr("x", 325).attr("y", 11).text("61-80").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#b2df8a") 
 
 //age legend for >80
-svg.append("circle").attr("cx",318).attr("cy", -4).attr("r", 6).style("fill", "#d95f02")
+svg.append("circle").attr("cx",318).attr("cy", -4).attr("r", 2).style("fill", "#d95f02")
 svg.append("text").attr("x", 325).attr("y", -2).text(">80").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#d95f02") 
 
 
@@ -357,10 +357,10 @@ console.log(sindhu)
           return color(d.gender)
         });
 //adding Male legend to the map
-        svg.append("circle").attr("cx",10).attr("cy",-20).attr("r", 6).style("fill", "#c994c7").style("stroke", "black").style("stroke-opacity", .5)
+        svg.append("circle").attr("cx",10).attr("cy",-20).attr("r", 2).style("fill", "#c994c7").style("stroke", "black").style("stroke-opacity", .5)
 svg.append("text").attr("x", 20).attr("y", -20).text("Male").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#c994c7");
 //adding Female legend to the map
-svg.append("circle").attr("cx",10).attr("cy",-5 ).attr("r", 6).style("fill", "#2c7fb8").style("stroke", "black").style("stroke-opacity", .5)
+svg.append("circle").attr("cx",10).attr("cy",-5 ).attr("r", 2).style("fill", "#2c7fb8").style("stroke", "black").style("stroke-opacity", .5)
 svg.append("text").attr("x", 20).attr("y", -5).text("Female").style("font-size", "15px").attr("alignment-baseline","middle").style("fill", "#2c7fb8")
 
 
